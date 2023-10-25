@@ -32,6 +32,7 @@ Spatial Background Builder is configured by editing the conf.json file
 
 ### Case 1 : spatial transcriptomics data
 Edit the following parameters (let default values for other parameters):  
+```
 "OptimizeScatterPlot": false,  
 "initialImgWidth": 40000,  # the width of the original microscopy image  
 "initialImgHeight": 20000,    # the height of the original microscopy image  
@@ -42,11 +43,12 @@ Edit the following parameters (let default values for other parameters):
         "num_cluster",
         "KEGG_OXIDATIVE_PHOSPHORYLATION"
     ]   # one or more column name used as cluster in the spatial explorer. These columns will be converted to Integers  
-
+```
 
 ### Case 2 : non spatial transcriptomics data, scatter plots...
 
 Edit the following parameters (let default values for other parameters):  
+```
 "OptimizeScatterPlot": true,   
 "finalImgWidth": 1100,    # the final width of the background image 
 "margin": 50,      # the margin in pixel of the final background image 
@@ -63,6 +65,6 @@ Edit the following parameters (let default values for other parameters):
         "num_cluster",
         "KEGG_OXIDATIVE_PHOSPHORYLATION"
     ]   # one or more column name used as cluster in the spatial explorer. These columns will be converted to Integers   
-
+```
 
 
