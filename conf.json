@@ -1,0 +1,20 @@
+{
+    "OptimizeScatterPlot": false,
+    "initialImgWidth": 40000,
+    "initialImgHeight": 20000,
+    "finalImgWidth": 1100,
+    "margin": 50,
+    "Xcoor": [
+        "tSNE_1",
+        "GO_MALE_MEIOSIS"
+    ],
+    "Ycoor": [
+        "tSNE_2",
+        "GO_MITOCHONDRION"
+    ],
+    "IntegerConvert": true,
+    "Cluster": [
+        "num_cluster",
+        "KEGG_OXIDATIVE_PHOSPHORYLATION"
+    ]
+}
