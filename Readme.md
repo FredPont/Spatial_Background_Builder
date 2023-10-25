@@ -1,6 +1,6 @@
 # Spatial Background Builder
 
-Spatial Background Builder is a Julia program to extend [Single-Cell Spatial Explorer](https://github.com/FredPont/spatial) compatibility with any type of numeric data. It can :
+Spatial Background Builder is a Julia program to extend [Single-Cell Spatial Explorer](https://github.com/FredPont/spatial) compatibility with [Single-Cell Signature Explorer](https://sites.google.com/site/fredsoftwares/products/single-cell-signature-explorer) or any type of numeric data. It can :
 - Computes the image scaling factor and convert cluster(s) column(s) to integers
 - Create a black or white background image
 - Convert XY coordinates of a scatter plot into pixel coordinates
