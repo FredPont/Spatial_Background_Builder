@@ -34,15 +34,15 @@ Spatial Background Builder is configured by editing the conf.json file
 Edit the following parameters (let default values for other parameters):  
 ```
 "OptimizeScatterPlot": false,  
-"initialImgWidth": 40000,  # the width of the original microscopy image  
-"initialImgHeight": 20000,    # the height of the original microscopy image  
-"finalImgWidth": 1100,    # the final width of the background image  
-"margin": 50,      # the margin in pixel of the final background image  
-"IntegerConvert": true, # true if your table contains Floats instead of Integers for the cluster data  
+"initialImgWidth": 40000,               # the width of the original microscopy image  
+"initialImgHeight": 20000,              # the height of the original microscopy image  
+"finalImgWidth": 1100,                  # the final width of the background image  
+"margin": 50,                           # the margin in pixel of the final background image  
+"IntegerConvert": true,                 # true if your table contains Floats instead of Integers for the cluster data  
 "Cluster": [
         "num_cluster",
         "KEGG_OXIDATIVE_PHOSPHORYLATION"
-    ]   # one or more column name used as cluster in the spatial explorer. These columns will be converted to Integers  
+    ]                                    # one or more column name used as cluster in the spatial explorer. These columns will be converted to Integers  
 ```
 
 ### Case 2 : non spatial transcriptomics data, scatter plots...
@@ -50,21 +50,21 @@ Edit the following parameters (let default values for other parameters):
 Edit the following parameters (let default values for other parameters):  
 ```
 "OptimizeScatterPlot": true,   
-"finalImgWidth": 1100,    # the final width of the background image 
-"margin": 50,      # the margin in pixel of the final background image 
+"finalImgWidth": 1100,                  # the final width of the background image 
+"margin": 50,                           # the margin in pixel of the final background image 
     "Xcoor": [
         "tSNE_1",
         "GO_MALE_MEIOSIS"
-    ],   # one or more column name used as X coordinates  
+    ],                                  # one or more column name used as X coordinates  
     "Ycoor": [
         "tSNE_2",
         "GO_MITOCHONDRION"
-    ],    # one or more column name used as Y coordinates  
+    ],                                  # one or more column name used as Y coordinates  
 "IntegerConvert": true, # true if your table contains Floats instead of Integers for the cluster   data  
 "Cluster": [
         "num_cluster",
         "KEGG_OXIDATIVE_PHOSPHORYLATION"
-    ]   # one or more column name used as cluster in the spatial explorer. These columns will be converted to Integers   
+    ]                                    # one or more column name used as cluster in the spatial explorer. These columns will be converted to Integers   
 ```
 
 
