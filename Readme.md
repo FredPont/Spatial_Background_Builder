@@ -60,7 +60,7 @@ Edit the following parameters (let default values for other parameters):
         "tSNE_2",
         "GO_MITOCHONDRION"
     ],                                  # one or more column name used as Y coordinates  
-"IntegerConvert": true, # true if your table contains Floats instead of Integers for the cluster   data  
+"IntegerConvert": true,                 # true if your table contains Floats instead of Integers for the cluster   data  
 "Cluster": [
         "num_cluster",
         "KEGG_OXIDATIVE_PHOSPHORYLATION"
