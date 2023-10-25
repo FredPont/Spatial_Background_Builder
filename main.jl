@@ -31,14 +31,12 @@ end
 
 function main()
     userConf = readConf()
-    #println(userConf)
     tables = readdir("data/")
-    #println(tables)
+
     title()
 
     t1 = time()
 
-    
     for filename in tables
         if userConf.OptimizeScatterPlot
             processTable(filename::String, userConf::CONF)
