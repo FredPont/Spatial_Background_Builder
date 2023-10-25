@@ -5,7 +5,7 @@ Spatial Background Builder is a Julia program to extend [Single-Cell Spatial Exp
 - Create a black or white background image
 - Convert XY coordinates of a scatter plot into pixel coordinates
 
-Example of scRNAseq data obtained with [Single-Cell Signature Explorer](https://sites.google.com/site/fredsoftwares/products/single-cell-signature-explorer) visualized in [Single-Cell Spatial Explorer](https://github.com/FredPont/spatial) after conversion with Spatial Background Builder :
+Example of scRNAseq data (pathways, clusters) obtained with [Single-Cell Signature Explorer](https://sites.google.com/site/fredsoftwares/products/single-cell-signature-explorer) visualized in [Single-Cell Spatial Explorer](https://github.com/FredPont/spatial) after conversion with Spatial Background Builder :
 ![scSpatial Explorer Expression!](src/web/spatial1.png "")
 ![scSpatial Explorer Plot Gates!](src/web/spatial3.png "")
 ![scSpatial Explorer Clusters!](src/web/spatial2.png "")
@@ -21,6 +21,7 @@ Example of scRNAseq data obtained with [Single-Cell Signature Explorer](https://
 - edit the conf.json file (see bellow more explanations in the configuration section)
 - open a terminal or the Julia console
 - enter in the Spatial Background Builder using the command "cd" in the terminal or cd() in the Julia console
+![julia!](src/web/julia.png "")
 - start the software with the command julia main.jl or  include("main.jl") in the Julia console
 - the black or white background image are in the background directory
 - the processed tables are in the result directory
