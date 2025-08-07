@@ -18,6 +18,8 @@ function plotRescaleData(df::DataFrame, config::CONF, filename::String)
 	end
 end
 
+# Graphe plots the XY scatter plot columns converted to pixel coordinates.
+# the plot is in the "plots" directory
 function Graphe(df, fileName, Xcolname, Ycolname)
     filename = remExt(fileName)
     out = "plots/" * filename * "_" * Xcolname * "_" * Ycolname * ".png"
