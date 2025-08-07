@@ -9,7 +9,7 @@ function pkgAdd(list::Array{String,1})
     end
 end
 
-pk = ["CSV", "DataFrames", "JSON3", "VegaLite", "Images"]
+pk = ["CSV", "DataFrames", "JSON3", "VegaLite", "Images", "FileIO"]
 pkgAdd(pk)
 
 println("Precompilation...")
